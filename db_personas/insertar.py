@@ -34,6 +34,6 @@ registros = cursor.rowcount
 # Mostrar mensaje
 print(f'Registro insertado: {registros}')
 
-# Cerrar conexiones
+# Cerrar las conexiones
 cursor.close()
 conexion.close()
